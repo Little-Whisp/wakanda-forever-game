@@ -1,0 +1,39 @@
+{
+    "name": "Wakanda Forever Game",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "wakanda-palette": "github:riknoll/wakanda-palette",
+        "sprite-scaling": "*",
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#6cfbf925b9a4d5ddf3e1078e6cf6ca6a1aebb301",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "light": "*",
+        "feather": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "tutorial.custom.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.11.37",
+        "tag": "v1.11.37",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/bf992d35ca2baeaa26d773aac7caad5a152c45aa",
+        "target": "1.12.21",
+        "pxt": "8.4.30",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
